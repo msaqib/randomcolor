@@ -23,29 +23,12 @@
         color: white;
         padding: 10px;
     }
-    .nav-center {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%; /* Expand the .nav-center to fill the available space */
-    }
-    .nav-links {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-    }
-
-    .nav-links li a {
-        text-decoration: none;
-        color: white;
-    }
 
     nav h2 {
         color: var(--clr-gray-2);
     }
 
     main {
-        flex-grow: 1;
         height: 100vh;
     }
     .container {
